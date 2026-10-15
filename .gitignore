@@ -11,12 +11,22 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+.env.*
+!.env.example
+
+# Test and tool caches
+coverage
+.cache
+.vite
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
+ehthumbs.db
 *.suo
 *.ntvs*
 *.njsproj
